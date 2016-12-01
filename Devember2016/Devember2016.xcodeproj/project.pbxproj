@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -217,7 +217,7 @@
 				};
 			};
 			buildConfigurationList = EB17C6721DEF7225000404C1 /* Build configuration list for PBXProject "Devember2016" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -424,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33D8ZT4XT;
 				INFOPLIST_FILE = Devember2016/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33D8ZT4XT;
 				INFOPLIST_FILE = Devember2016/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -519,6 +521,7 @@
 				EB17C6A71DEF7226000404C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB17C6A81DEF7226000404C1 /* Build configuration list for PBXNativeTarget "Devember2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +530,7 @@
 				EB17C6AA1DEF7226000404C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB17C6AB1DEF7226000404C1 /* Build configuration list for PBXNativeTarget "Devember2016UITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +539,7 @@
 				EB17C6AD1DEF7226000404C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
