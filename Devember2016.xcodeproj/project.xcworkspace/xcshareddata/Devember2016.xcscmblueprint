@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "17E08D4E6B313E3C596D6A90868140ED2B16FFF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3D65BC6F7CC8D47E4DCA93CCD38933F38B766FEB" : 9223372036854775807,
+    "17E08D4E6B313E3C596D6A90868140ED2B16FFF0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "64874331-0F1B-4A26-9D88-EA9F4ACFEF4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3D65BC6F7CC8D47E4DCA93CCD38933F38B766FEB" : "Devember2016\/Carthage\/Checkouts\/GridMapKit\/",
+    "17E08D4E6B313E3C596D6A90868140ED2B16FFF0" : "Devember2016\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Devember2016",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Devember2016.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/notCalle\/Devember2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17E08D4E6B313E3C596D6A90868140ED2B16FFF0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/notCalle\/GridMapKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D65BC6F7CC8D47E4DCA93CCD38933F38B766FEB"
+    }
+  ]
+}
