@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB05A8E61E008F7C00FC40D1 /* GridMapKit in Resources */ = {isa = PBXBuildFile; fileRef = EB05A8E51E008F7C00FC40D1 /* GridMapKit */; };
 		EB17C67B1DEF7225000404C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17C67A1DEF7225000404C1 /* AppDelegate.swift */; };
 		EB17C67D1DEF7226000404C1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB17C67C1DEF7226000404C1 /* GameScene.sks */; };
 		EB17C67F1DEF7226000404C1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB17C67E1DEF7226000404C1 /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB05A8E51E008F7C00FC40D1 /* GridMapKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GridMapKit; path = Carthage/Checkouts/GridMapKit/GridMapKit; sourceTree = "<group>"; };
 		EB17C6771DEF7225000404C1 /* Devember2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devember2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB17C67A1DEF7225000404C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB17C67C1DEF7226000404C1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -83,10 +85,12 @@
 		EB17C66E1DEF7225000404C1 = {
 			isa = PBXGroup;
 			children = (
+				EB05A8E51E008F7C00FC40D1 /* GridMapKit */,
 				EB17C6791DEF7225000404C1 /* Devember2016 */,
 				EB17C6941DEF7226000404C1 /* Devember2016Tests */,
 				EB17C69F1DEF7226000404C1 /* Devember2016UITests */,
 				EB17C6781DEF7225000404C1 /* Products */,
+				EB1EB3CB1DFFF53700371893 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +136,13 @@
 				EB17C6A21DEF7226000404C1 /* Info.plist */,
 			);
 			path = Devember2016UITests;
+			sourceTree = "<group>";
+		};
+		EB1EB3CB1DFFF53700371893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			files = (
 				EB17C6861DEF7226000404C1 /* Main.storyboard in Resources */,
 				EB17C67D1DEF7226000404C1 /* GameScene.sks in Resources */,
+				EB05A8E61E008F7C00FC40D1 /* GridMapKit in Resources */,
 				EB17C6881DEF7226000404C1 /* Assets.xcassets in Resources */,
 				EB17C68B1DEF7226000404C1 /* LaunchScreen.storyboard in Resources */,
 				EB17C67F1DEF7226000404C1 /* Actions.sks in Resources */,
@@ -425,6 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J33D8ZT4XT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Devember2016/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +455,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J33D8ZT4XT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Devember2016/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
